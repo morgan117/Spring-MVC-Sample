@@ -10,7 +10,7 @@ public class HomeController {
 	public String home() {
 			
 		System.out.println("Homecontroller:passing through");
-		return "/WEB-INF/views/home.jsp";
+		return "home2";
 	}
 }	
 	
